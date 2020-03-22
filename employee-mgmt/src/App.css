@@ -1,0 +1,44 @@
+body {
+  background: slategray;
+}
+.App {
+  display: flex;
+  background: slategray;
+}
+
+form {
+  display: inline-grid;
+  width: 25%;
+  margin-left: 25px;
+}
+
+input, select {
+  display: block;
+  margin-bottom: 25px;
+  padding: 14px 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  color: slategray; 
+}
+
+.empBtn button {
+  margin: 5px;
+  border-radius: 12px;
+  padding: 12px;
+  margin:4px 2px;
+  cursor: pointer;
+  width: 25%;
+  color: black;
+  font-weight: bold;
+}
+
+pre {
+  margin: 5% 0 0 5%;
+}
+
+.myList button {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+
